@@ -13,16 +13,16 @@ if __name__ == "__main__":
     monto1 = 100.0
     descuento1 = calcular_descuento(monto1)
     total1 = monto1 - descuento1
-    print(f"Valor de la compra: ${monto1} - Descuento: ${descuento1} - Total a pagar: ${total1}")
+    print(f"Valor de la compra: ${monto1} - Descuentos: ${descuento1} - Total a pagar: ${total1}")
 
     # Segunda: monto total y descuento
     monto2 = 200.0
     descuento2 = calcular_descuento(monto2, 20)
     total2 = monto2 - descuento2
-    print(f"Valor de la compra: ${monto2} - Descuento: ${descuento2} - Total a pagar: ${total2}")
+    print(f"Valor de la compra: ${monto2} - Descuentos: ${descuento2} - Total a pagar: ${total2}")
 
   # tercera: monto total y descuento
     monto3 = 400.0
     descuento3 = calcular_descuento(monto3, 30)
     total3 = monto3 - descuento3
-    print(f"Valor de la compra: ${monto3} - Descuento: ${descuento3} - Total a pagar: ${total3}")
+    print(f"Valor de la compra: ${monto3} - Descuentos: ${descuento3} - Total a pagar: ${total3}")
